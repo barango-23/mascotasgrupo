@@ -1,0 +1,13 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/barberiabbr.appspot.com/o/banner%20mascotas.jpg?alt=media&token=27df6ef2-9aef-4af9-8812-f8073e808157");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 22%;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    height: 70%;
+    ;
+}
