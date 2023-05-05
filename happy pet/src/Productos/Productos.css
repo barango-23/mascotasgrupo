@@ -1,0 +1,14 @@
+.carousel{
+    width: 50%;
+    height: 50%;
+
+}
+.texto1{
+    font-family: 'Courier New', Courier, monospace cursive;
+    color: black;
+    text-align: center;
+    background-color: #80604a ;
+}
+.carousel .item{
+    align-items: center;
+}

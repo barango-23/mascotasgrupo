@@ -1,0 +1,21 @@
+.footer{
+    background: color #382411;
+    border-top:2px solid #69482c;
+}
+.footer .footer-box{
+    padding:30px ;
+    display:flex ;
+    align-items:center ;
+    justify-content: space-between;
+}
+.footer .footer-box .copyright{
+    color: black;
+    font-size: 20px;
+
+}
+.footer .footer-box .brand span{
+    color: #fcc99e;
+}
+.h1{
+   padding: 20%;
+}

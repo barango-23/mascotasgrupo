@@ -1,5 +1,8 @@
 import { Menu } from '../Shared/Menu/Menu'
 import { Formulario } from '../Formulario/Formulario'
+import { Servicios } from '../Servicios/Servicios'
+import { Footer } from '../Footer/Footer'
+import { Productos } from '../Productos/Productos'
 
 import './Home.css'
 export function Home(){
@@ -10,8 +13,13 @@ export function Home(){
 
         
         <Formulario/>
+
+        <Servicios/>
+
+       
+              <Productos/>
               
-        
+              <Footer/>
        
         
         </>
