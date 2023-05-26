@@ -1,10 +1,11 @@
 import './Menu.css'
-export function Menu(){
-    return(
+import { Link } from 'react-router-dom'
+export function Menu() {
+    return (
         <>
-          <nav className="navbar navbar-expand-lg navbar-dark menu">
+            <nav className="navbar navbar-expand-lg navbar-dark menu">
                 <div className="container-fluid wow  animate__animated animate__rubberBand inicial ">
-                    <a className="navbar-brand " href="">Inicio</a>
+                    <Link className="navbar-brand " to="/">Inicio</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -13,20 +14,23 @@ export function Menu(){
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Mascotas</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" href="#">Numero #</a>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/productos">Productos</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" href="#">Formulario</a>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/servicios">Servicios</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link active">Agendamiento</a>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/agendamiento">Agendamiento</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/reservas">VER RESERVAS</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        
+
         </>
     )
 }

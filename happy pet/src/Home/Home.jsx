@@ -30,16 +30,14 @@ return(
 
         return(
             <>
-            <Menu/>
+            
             <section className="banner img-fluid w-80"></section>
     
             
-            <Formulario/>
-    
-            <Servicios/>
+           
     
            
-                  <Productos/>
+                 
                   
                   <Footer/>
            

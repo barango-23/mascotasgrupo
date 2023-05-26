@@ -64,12 +64,14 @@ export function Formulario() {
 
                 <div className="container-fluid formulario">
                     <div className="row justify-content-center">
-                        <div className="col-4">
+                        <div className="col-8">
                                 <div className="row">
                                     <div className="col-12">
                                         <div class="input-group mb-3">
+                                            
                                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-people-fill"></i></span>
                                             <input
+                                            
                                                 type="text"
                                                 className={`form-control ${erorres.nombre ? 'is-invalid' : ''}`}
                                                 placeholder="Nombre de usuario"
